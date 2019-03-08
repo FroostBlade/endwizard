@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Metadata, Stylesheet, Title -->
+
+<head>
+    <title>Главная | Lucky-Cloud</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Minecraft Server">
+    <meta name="author" content="FeezZz">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel='stylesheet' type='text/css'>
+
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+</head>
+
+<!-- Navbar Start -->
+
+<body>
+    <div class="navbar-wrapper">
+		<div class="navbar navbar-default navbar-fixed navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+<a class="navbar-brand" href="/"><script language="JavaScript1.2">  
+    var message="Lucky-Cloud                                     "
+    var neonbasecolor="#5bc0de"  
+    var neontextcolor="#31708f"  
+    var neontextcolor2="#777777"  
+    var flashspeed=120  
+    var flashingletters=3  
+    var flashingletters2=1  
+    var flashpause=0  
+    var n=0  
+    if (document.all||document.getElementById){  
+       document.write('<font color="'+neonbasecolor+'" size=+1>')  
+       for (m=0;m<message.length;m++)  
+     document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')  
+       document.write('</font>')  
+    }  
+    else  
+       document.write(message)  
+    function crossref(number){  
+       var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)  
+       return crossobj  
+    }  
+    function neon(){  
+       //Change all letters to base color  
+       if (n==0){  
+     for (m=1;m<message.length;m++)  
+     crossref(m).style.color=neonbasecolor  
+     }  
+       crossref(n).style.color=neontextcolor  
+       if (n>flashingletters-1) crossref(n-flashingletters).style.color=neontextcolor2  
+       if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=neonbasecolor  
+       if (n<message.length-1) n++  
+       else{  
+     n=0  
+     clearInterval(flashing)  
+     setTimeout("beginneon()",flashpause)  
+     return  
+     }  
+    }  
+    function beginneon(){  
+       if (document.all||document.getElementById)  
+       flashing=setInterval("neon()",flashspeed)  
+    }  
+    beginneon()  
+    </script></a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="<? echo $main?>"><a href="/"><i class="fa fa-home"></i> Главная</a></li>
+						<li class="<? echo $play?>"><a href="/go/play"><i class="fa fa-gamepad"></i> Играть</a></li>
+						<li class="<? echo $forum?>"><a href="/go/rules"><i class="fa fa-pencil"></i> Правила</a></li>
+						<li class="<? echo $shop?>"><a href="/go/shop"><i class="fa fa-shopping-cart"></i> Магазин</a></li>
+						<li class="<? echo $vote?>"><a href="/go/vote"><i class="fa fa-check-square-o"></i> Голосовать</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<a href="/go/play" class="btn btn-info navbar-btn navbar-right hidden-sm hidden-xs">IP:mc.Lucky-Cloud.ru</a>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </div>
+    <br>
+    <br>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Ошибка 500</h1>
+            <p>Внутренняя ошибка севера</p>
+            <p>Администрация проекта Lucky-Cloud приносит свои извинения за предоставленые неудобства, мы отпинаем нашего web-разработчика и заставим его решить данную проблему:D</p>
+            <p>По возможности сообщите Администрации о данной проблеме в теме: ссылочкаВК</p>
+        </div>
+    </div>
+    <!-- Footer -->
+	<div id="footer">
+		<div class="container hidden-xs">
+			<hr>
+			<ul class='nav nav-pills'>
+				<li class='pull-left'><a href="https://vk.com/id147633824">Web Developer FeezZz</a>
+				</li>
+
+				<li class="pull-right">
+					<a href="/go/rules">Правила</a>
+				</li>
+
+				<li class="pull-right">
+					<a href="/go/staff">Администрация</a>
+				</li>
+				
+				<li class="pull-right">
+					<a href="/go/help">Помощь</a>
+				</li>
+
+			</ul>
+			<br>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+
+</html>

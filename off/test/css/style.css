@@ -1,0 +1,275 @@
+html,
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+a{
+  color: white
+}
+a:hover{
+  color: #f5f5f5;
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background: white;
+    border-color: #f2f2f2;
+    opacity: .7;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+.fade-carousel .slides .slide-1 {
+  background-image: url("../img/slide1.jpg"); 
+  opacity: 0.5;
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url("../img/slide2.jpg");
+  opacity: 0.5;
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url("../img/slide3.jpg");
+  opacity: 0.5;
+}
+
+.text-carousel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.text-carousel h1 {
+    font-size: 2.5em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 6px;
+}
+.text-carousel h3 {
+    font-size: 1em;    
+}
+
+
+.btn-lg{
+  padding: 12px 16px;
+  font-size: 12px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  -webkit-transition: background-color 0.6s;
+  -moz-transition: background-color 0.6s;
+  transition: background-color 0.6s; 
+}
+.btn.btn-lg {
+  padding: 10px 40px;
+  outline: none;
+  margin: 20px auto;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  -webkit-transition: background-color 0.6s;
+  -moz-transition: background-color 0.6s;
+  transition: background-color 0.6s; 
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.btn.discord,
+.btn.discord:focus {
+    color: #f5f5f5;
+    background-color: rgb(114, 137, 218);
+}
+.btn.discord:hover{
+    background-color: rgb(97, 121, 210);
+}
+.btn.discord > img{
+  position: relative;
+  left: -3px;
+}
+
+.btn.youtube,
+.btn.youtube:focus {
+
+    color: #f5f5f5;
+    background-color: rgb(230, 33, 25);
+}
+.btn.youtube:after{
+    content: "\f16a";
+    font-family: FontAwesome;
+}
+.btn.youtube:hover{
+    background-color: rgb(198, 28, 28);
+}
+
+.btn.facebook,
+.btn.facebook:focus {
+    color: #f5f5f5;
+    background-color: rgb(59, 89, 152);
+}
+.btn.facebook:after{
+    content: "\f082";
+    font-family: FontAwesome;
+}
+.btn.facebook:hover{
+    background-color: rgb(49, 73, 125);
+}
+
+.btn.twitter,
+.btn.twitter:focus {
+    color: #f5f5f5;
+    background-color: rgb(30, 161, 243);
+}
+.btn.twitter:after{
+    content: "\f099";
+    font-family: FontAwesome;
+}
+.btn.twitter:hover{
+    background-color: rgb(12, 140, 218);
+}
+
+.btn.google-plus,
+.btn.google-plus:focus {
+    color: #f5f5f5;
+    background-color: rgb(230, 80, 67);
+}
+.btn.google-plus:after{
+    content: "\f0d5";
+    font-family: FontAwesome;
+}
+.btn.google-plus:hover{
+    background-color: rgb(192, 68, 59);
+}
+
+.btn.twitch,
+.btn.twitch:focus {
+    color: #f5f5f5;
+    background-color: rgb(101, 68, 155);
+}
+.btn.twitch:after{
+    content: "\f1e8";
+    font-family: FontAwesome;
+}
+.btn.twitch:hover{
+    background-color: rgb(84, 56, 129);
+}
+.btn.paypal,
+.btn.paypal:focus {
+    color: #f5f5f5;
+    background-color: rgb(0, 100, 166);
+}
+.btn.paypal:after{
+    content: "\f1ed";
+    font-family: FontAwesome;
+}
+.btn.paypal:hover{
+    background-color: rgb(0, 83, 138);
+}
+.btn.steam,
+.btn.steam:focus {
+    color: #f5f5f5;
+    background-color: rgb(49, 43, 45);
+}
+.btn.steam:after{
+    content: "\f1b6";
+    font-family: FontAwesome;
+}
+.btn.steam:hover{
+    background-color: rgb(30, 26, 27);
+}
+.btn.skype,
+.btn.skype:focus {
+    color: #f5f5f5;
+    background-color: rgb(0, 175, 240);
+}
+.btn.skype:after{
+    content: "\f17e";
+    font-family: FontAwesome;
+}
+.btn.skype:hover{
+    background-color: rgb(0, 153, 210);
+}
+.btn.snapchat,
+.btn.snapchat:focus {
+    color: #f5f5f5;
+    background-color: rgb(222, 222, 0);
+}
+.btn.snapchat:after{
+    content: "\f2ab";
+    font-family: FontAwesome;
+}
+.btn.snapchat:hover{
+    background-color: rgb(200, 200, 0);
+}
+
+@media (min-width: 768px) {
+  .btn-lg{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+  }
+  .text-carousel h1 {
+    font-size: 5em;
+    -webkit-transition: font-size 0.3s;
+    -moz-transition: font-size 0.3s;
+    transition: font-size 0.3s; 
+   }
+   .text-carousel h3 {
+    font-size: 1.6em;    
+  }
+
+}

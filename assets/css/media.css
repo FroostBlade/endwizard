@@ -1,0 +1,32 @@
+@media only screen and (max-width:1200px){}
+@media only screen and (max-width:992px){.nav > li > a{position:relative;display:block;padding:10px 5px;}
+.headerh1{top:25vh !important;margin-top:-50px !important;}
+.h1head:before, .h1head:after{left:0 !important;display:block !important;margin-bottom:0 !important;}
+.h1head:before{top:-5px;}
+.h1head:after{bottom:-5px;}
+#donatecont{padding:40px 0;margin-top:-41px;}
+.image > div > div:nth-child(2){display:none;}
+.nav-tabs>li >a{border-radius:0;}
+.tbs{padding:0;}
+}
+@media only screen and (max-width:768px){.effect-goliath{float:none!important;}
+.heading-modal{margin-top:80px;}
+header{background-position:right -210px center;}
+.arrow{display:none;}
+}
+@media only screen and (max-width:480px){.nav > li{width:100%;height:50px;background:#fff;text-align:center !important;}
+.navbar-nav{margin:0 -15px;}
+.nav > li > a{color:#333;}
+.nav > li:before{background:transparent;height:0;width:0;}
+.nav > li:hover, .nav > li:focus, .nav > li:active, .nav > li:visited, .nav > li:disabled{background:#eb7f00;}
+}
+@media only screen and (max-width:320px){}
+@media only screen and (min-width:320px){}
+@media only screen and (min-width:480px){}
+@media only screen and (min-width:768px){}
+@media only screen and (min-width:992px){.nav a{color:#333;}
+}
+@media only screen and (min-width:1570px){.prev_button1 > span{display:none;}
+.next_button1 > span{display:none;}
+}
+@media (max-device-width:480px){.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{max-height:100vh;}}
